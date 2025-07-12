@@ -1,6 +1,6 @@
 // console.log('123')
 
-const { isValidElement } = require("react")
+// const { isValidElement } = require("react")
 
 
 // constan tidak bisa diubah
@@ -23,8 +23,8 @@ let string4 = string1 + ' '+ string2
 // console.log(string4)
 
 // integer
-let integer1 = 1223344
-let integer2 = '987766!W#'
+// let integer1 = 1223344
+// let integer2 = '987766!W#'
 // console.log(integer2)
 
 // bolean
@@ -38,8 +38,27 @@ let bolean4 = 5==5;
 let array = ['1','2','3','4','5']; // untuk idex start di 0
 // console.log(array[0])
 
-let object = {
-    buah: 'apel',
-    jumlah: 3,
-    isEdible: true
+// let object = {
+//     buah: 'apel',
+//     jumlah: 3,
+//     isEdible: true
+    
+// };
+// console.log(object.buah)
+// console.log(object['buah'])
+
+// let camelCase = jumlahBuah
+// let snake_case = jumlah_buah
+
+let objectArray= {
+    namePeserta:['a','b','c'],
+    nomorUrut: [1,2,3,4,5]
+    
 }
+console.log(objectArray.nomorUrut[2])
+
+/*
+untuk declare ada 3,let, var, const
+untuk type data ada 5, string, bolean, integer, array, object
+
+*/
