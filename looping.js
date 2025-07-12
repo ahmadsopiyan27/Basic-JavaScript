@@ -49,3 +49,6 @@ let objectBaru = {
     name: 'a',
     class: 1
 }
+for (const key in objectBaru){
+    console.log(`${key}: ${objectBaru[key]}`)
+}
