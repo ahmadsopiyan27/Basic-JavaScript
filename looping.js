@@ -52,3 +52,16 @@ let objectBaru = {
 for (const key in objectBaru){
     console.log(`${key}: ${objectBaru[key]}`)
 }
+
+for (let menuHariIni of buah) {
+    console.log('menuHariIni');
+    console.log(menuHariIni);
+}
+
+// quiz
+let usia = 20
+if(usia <=18){
+    console.log('anak2')
+}else {
+    console.log('dewasa')
+}
