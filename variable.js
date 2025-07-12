@@ -5,3 +5,5 @@
 const satu = 1
 satu = 2
 console.log(satu)
+
+// var let -> bisa diubah
