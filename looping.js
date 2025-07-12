@@ -26,6 +26,26 @@ switch (buah[0]) {
 
 // looping ada 3, for, while, do ... while
 
-for(let index=1; index<10; index++){
-    console.log(index)
+for(let index=0; index<3; index++){
+    console.log(buah[index])
+}
+
+let index2 = 3
+// while(index2<=3){
+    // console.log(buah[index2])
+    // console.log(`buah[${index2}]`)
+    // index2++;
+
+
+do{
+    console.log(`buah hari ini adalah ${buah[index2]}`)
+    index2++;
+}while (index2<=2);
+
+//  for in, for of
+//  for in, dipakai  untuk object
+
+let objectBaru = {
+    name: 'a',
+    class: 1
 }
