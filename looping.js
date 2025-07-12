@@ -65,3 +65,14 @@ if(usia <=18){
 }else {
     console.log('dewasa')
 }
+
+// fucntion
+function umur(integer){
+    if(usia <=18){
+    console.log('anak2')
+    }else {
+     console.log('dewasa')
+     return 'bisa'
+}}
+let quiz = umur(usia)
+console.log(quiz)
