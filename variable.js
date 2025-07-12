@@ -1,5 +1,7 @@
 // console.log('123')
 
+const { isValidElement } = require("react")
+
 
 // constan tidak bisa diubah
 const a = 1
@@ -18,4 +20,26 @@ let string1 ='text'    // bisa pake ' " `
 let string2 = "text lagi"
 let string3 = `test ${string2}`
 let string4 = string1 + ' '+ string2
-console.log(string4)
+// console.log(string4)
+
+// integer
+let integer1 = 1223344
+let integer2 = '987766!W#'
+// console.log(integer2)
+
+// bolean
+let bolean1 = true
+let bolean2 = false
+let bolean3 = 5==3;
+let bolean4 = 5==5;
+// console.log(bolean4)
+
+// let array
+let array = ['1','2','3','4','5']; // untuk idex start di 0
+// console.log(array[0])
+
+let object = {
+    buah: 'apel',
+    jumlah: 3,
+    isEdible: true
+}
