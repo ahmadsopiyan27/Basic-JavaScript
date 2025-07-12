@@ -76,3 +76,5 @@ function umur(integer){
 }}
 let quiz = umur(usia)
 console.log(quiz)
+
+// komponen fucntion ada 3, nama function, variable,
